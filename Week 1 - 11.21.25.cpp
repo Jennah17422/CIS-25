@@ -67,7 +67,7 @@ int main() {
     loadedTool.loadFromFile();
     
 // Module 11:  Advanced Classes – Constructors & Destructors
-    Product p(101, "Laptop", 799.99);
+    Product p(101, "Laptop", 639.50);
     p.printDetails();
 ;    
     return 0;
