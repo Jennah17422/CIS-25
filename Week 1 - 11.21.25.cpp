@@ -56,14 +56,19 @@ public:
 };
 
 int main() {
+   
+// Module 6 Strings and Classes 
     Item tool; //Created item
-    
-    tool.itemName  = "Werench"; //Assiggning their values
+   
+    //Assigning their values
+    tool.itemName  = "Werench"; 
     tool.quantity = 5;
-    
-    tool.saveToFile(); //Save to file
-    
-    Item loadedTool; //Loads from file 
+   
+    //Save to file
+    tool.saveToFile(); 
+   
+    //Loads from file 
+    Item loadedTool; 
     loadedTool.loadFromFile();
     
 // Module 11:  Advanced Classes – Constructors & Destructors
