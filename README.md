@@ -3,12 +3,12 @@
 // Module 6 Strings and Classes 
 
 Creating a class Item:
-    - As instructed, my code creates an Item class with the attributes itemName as a string and quantity as an integer.
-    - Implemented a saveToFile() to write data to items.txt in the format: itemName, quantity.
-    - To read the data back and display it from the file, I added the method loadFromFile(). 
+  - As instructed, my code creates an Item class with the attributes itemName as a string and quantity as an integer.
+  - Implemented a saveToFile() to write data to items.txt in the format: itemName, quantity.
+  - To read the data back and display it from the file, I added the method loadFromFile(). 
     
 In int main: 
-    - In my main, I created an Item as an instance, and used tool as my object to assign values to its members, itemName and quantity. Finally, writing the data to items.txt, I called saveToFile().
+  - In my main, I created an Item as an instance, and used tool as my object to assign values to its members, itemName and quantity. Finally, writing the data to items.txt, I called saveToFile().
 
     
 __________________________________________________________________________________________________________
