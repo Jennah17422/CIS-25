@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+// Derived from User
+#ifndef EMPLOYEE_H
+#define EMPLOYEE_H
+#include "User.h"
+
+class Employee : public User {
+public:
+    void accessLevel() override {
+        cout << "Employee Access\n";
+    }
+};
+#endif
