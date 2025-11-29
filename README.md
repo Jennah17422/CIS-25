@@ -78,11 +78,32 @@ Inheritance, method overriding, and access control in class hierarchies:
   - In main.cpp I created an InventoryManager object and called the accessLevel() to demonstrate which version is executed.
   - Then, finally, made each class into its own header file.
 
+
 __________________________________________________________________________________________________________
  // Module 11:  Advanced Classes – Constructors & Destructors
  
-Functions, header files, loops :
+Class constructors, destructors, object lifecycle:
 
-  - 
-  - 
+  - I created a class called Product containing storing 3 private attributes: an integer ID, a string name, and a double price. 
+  - Added a constructor that takes these 3 in its parameters. When the constructor runs, since each was set, it prints a message.
+  - I also added a destructor that prints a message; this one shows when the object is cleaned up at the end of the program.
+  - Using void, I created a method called printDetails() that will output all of the 3 so that it is visible to the console.
+  - And finally, in main(), I create a Product object with a few values, called printDetails(), so that the stored information will show.
 
+
+__________________________________________________________________________________________________________
+ // Module 12: Working with External Data in C++
+
+Real-world data, file input, string processing, custom class creation:
+
+
+  - I used the dataset of athens_weekdays.csv for Kaggle, which was called Airbnb Prices in European Cities. 
+  - // https://www.kaggle.com/datasets/thedevastator/airbnb-prices-in-european-cities/code?datasetId=2919695&sortBy=dateRun&tab=bookmarked&excludeNonAccessedDatasources=false
+  - I created a class called Airbnb with 5 fields as expected for the dataset: room_type, room_private, cleanliness_rating, person_capacity, and guest_satisfaction_overall.
+  - Added a constructor to store each of their values, then with printDetails as the method to display.
+  - In my main, I opened the CSV file. It's called main.cpp in my files for week 2.
+  - Then I displayed the information for the first 10 rows, so the output is in a readable format. 
+
+
+
+    
