@@ -66,13 +66,17 @@ Arrays, loops, class usage, basic inventory tracking:
   - Created a class labeled Item that stores the name of the object and the integer quantity. 
   - Then made an array of item objects with 7 items. The user will input the name of the object, then the number of quantity, and a loop will run to display the same prompt till the full 7 have been inputed by user. 
 
+
 __________________________________________________________________________________________________________
  // Module 10: Inheritance, Method Overriding
- 
-Functions, header files, loops :
 
-  - 
-  - 
+Inheritance, method overriding, and access control in class hierarchies:
+
+  - Virtual function is called accessLevel(), which creates a base name for the user.
+  - Made a derived class called Employee, which inherits from User and inside it it overrides the accessLevel() function, which will print a message instead of the base version. 
+  - Then made another derived class named InventoryManager, which takes from Employee. I overrode accessLevel() AGAIN, so now it prints all the inventory manager level access.
+  - In main.cpp I created an InventoryManager object and called the accessLevel() to demonstrate which version is executed.
+  - Then, finally, made each class into its own header file.
 
 __________________________________________________________________________________________________________
  // Module 11:  Advanced Classes – Constructors & Destructors
