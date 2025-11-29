@@ -75,7 +75,7 @@ Inheritance, method overriding, and access control in class hierarchies:
   - Virtual function is called accessLevel(), which creates a base name for the user.
   - Made a derived class called Employee, which inherits from User and inside it it overrides the accessLevel() function, which will print a message instead of the base version. 
   - Then made another derived class named InventoryManager, which takes from Employee. I overrode accessLevel() AGAIN, so now it prints all the inventory manager level access.
-  - In main.cpp I created an InventoryManager object and called the accessLevel() to demonstrate which version is executed.
+  - In main.cpp (labeled as Module10_main.cpp in GitHub), I created an InventoryManager object and called the accessLevel() to demonstrate which version is executed.
   - Then, finally, made each class into its own header file.
 
 
