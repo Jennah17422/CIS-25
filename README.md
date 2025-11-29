@@ -38,28 +38,33 @@ Building a class to manage inventory items and using file I/O to save and retrie
 
 
 __________________________________________________________________________________________________________
- // Module 7: Pointers and Memory
+ // Module 7: Structs, Binary Search, Pointers, and Dynamic Memory
  
-Functions, header files, loops :
+Use dynamic memory allocation and applying binary search to locate items in an list: This uses a structure 
+  - Created a struct named InventoryItem that holds the item's name and also an ID.
+  -  Made a dynamic array of 50 InventoryItem objects, then filled the array, assigning each item an ID from 1 to 50. When ran the name will be "Item_" + the number of 1 to 50, the binary search function finds the number the user entered. 
+  - If the number isn't within the range of the user's input, then it will say item not found.
+  - Delete[] frees the dynamic array, and the memory is cleaned up.
 
-  - 
-  - 
 
 __________________________________________________________________________________________________________
  // Module 8: Bank Account Simulation
  
-Functions, header files, loops :
+Class Design and File:
+  - Created a class called BankAccount with the attributes and methods that manage the account purchases and balance.
+  - It saves the transactions to transactions.txt for users' permanent account records.
+  - The account has 4 purchases in its history, a set amount of money, and the balance after all transactions. The user will see all of this when the program is ran. 
+  - PDF will be uploaded with running program. 
 
-  - 
-  - 
 
 __________________________________________________________________________________________________________
  // Module 9: Inventory Management with Arrays
  
-Functions, header files, loops :
+Arrays, loops, class usage, basic inventory tracking:
 
-  - 
-  - 
+  - Itemsearch is what I named my function; it holds takes the array of items, looks for matching names input by the user, and prints the same quantity if it's there. If not, then it informs the user it's not in the array.  
+  - Created a class labeled Item that stores the name of the object and the integer quantity. 
+  - Then made an array of item objects with 7 items. The user will input the name of the object, then the number of quantity, and a loop will run to display the same prompt till the full 7 have been inputed by user. 
 
 __________________________________________________________________________________________________________
  // Module 10: Inheritance, Method Overriding
