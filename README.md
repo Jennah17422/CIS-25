@@ -1,4 +1,4 @@
-# Class Assignment - 
+# Class Assignments - 
 
 
 Week 5 - Module 1, 6, 11 
